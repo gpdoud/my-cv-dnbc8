@@ -6,6 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
+  description: string = "1 parent, 2 child components";
   name: string = "Greg Doud";
   address: string = "4900 Parkway Dr.";
   city: string = "Mason";
