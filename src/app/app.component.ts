@@ -15,7 +15,7 @@ export class AppComponent {
   email: string = "greg@maxtrain.com";
   phone: string = "513-322-8888";
 
-  workExperiences: any = [
+  workExperiences: any[] = [
     {
       company: "MAX",
       job: "Instructor",
